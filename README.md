@@ -1015,8 +1015,14 @@ variant.
 
 * Memoizes a value, recomputing it only when one of its dependencies changes, optimizing performance by preventing unnecessary re-renders.
 
+# Zustand
 
-
+* It is used to manage our app's data in react and Next.js.
+* It is fast and easy to use.
+* We can't write lot of code.
+* Hooks-based API, making it intuitive and easy to use.
+* It is suitable for both small and large applications.
+* Intall-> `npm install zustand`.
 
 
 
