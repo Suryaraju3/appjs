@@ -680,13 +680,6 @@ variant.
 
 * We use the `gap-<width>` utilities to specify the width between columns.
 
-### custom value
-
-* `columns-[<value>]` syntax to set the columns based on a completely custom value.
-
-* CSS variables, We can also use the `columns-(<custom-property>)` syntax.
-
-* Shorthand for `columns-[var(<custom-property>)]` that adds the var() function for you automatically.
 
 ### Responsive design
 
