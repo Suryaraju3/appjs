@@ -981,5 +981,42 @@ variant.
 * setCount is to update the value.
 * Usestate set initial value is zero.
 
+## useEffect
+
+* useEffect is used to perform side effect in our functional compontents.
+* We can fatching data and updating DOM manually.
+* purpose of useeffect is to synchronize a React component with external systems.
+
+## usecontext
+
+* useContext lets you access globally.
+* We easier to share data across the component tree without prop drilling.
+
+## useRef
+
+* useRef allow to persist values between renders.
+* it is used to store mutable value.
+
+## useReducer
+
+* useState for managing more complex state logic, especially involve multiple sub values.
+
+## useCallback
+
+* useCallback Hook returns a memoized callback function.
+
+* Memoizes a function, returning a memoized version of the callback that only changes if one of its dependencies has changed. useful for optimizing child component re-renders.
+
+## useMemo
+
+* The useMemo and useCallback both are similar. 
+
+* The main difference is that useMemo returns a memoized value and useCallback returns a memoized function. 
+
+* Memoizes a value, recomputing it only when one of its dependencies changes, optimizing performance by preventing unnecessary re-renders.
+
+
+
+
 
 
